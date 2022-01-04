@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "d1683cc2-dcaa-402a-88e2-71f0063d5a1f",
+    "name": "Supreme",
+    "created": "2021-12-17 22:06:59 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "13h Getting items with /give without owners permisission. Remove operator permissions and ban for 13h"
+  },
+  {
+    "uuid": "3119a453-b77e-3ead-be80-2b0efe04f19f",
+    "name": "Pastarmata",
+    "created": "2022-01-04 17:14:48 +0000",
+    "source": "§4~jangis§r",
+    "expires": "2022-01-04 17:14:49 +0000",
+    "reason": "mogus"
+  }
+]

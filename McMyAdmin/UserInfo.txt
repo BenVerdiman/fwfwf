@@ -1,0 +1,2 @@
+#Username:Hash:AccessMask:Flags
+admin:vbxiOoH0L3DZI3BD4fOVRQ+VLEU92+T8m0xHqkEc2xA=:R53c4ayAEIpfAoSz6VD6:2097151:512

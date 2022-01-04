@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 84.238.150.143
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1636620477203
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636651341394
+  login: 1636651338232
+money: '9999515105826.0'
+logoutlocation:
+  world: 420ce1e5-356e-415b-995f-9ae5fa715874
+  world-name: world
+  x: 75.09666015585591
+  y: 6.3231670940306195
+  z: 89.97308084445486
+  yaw: -33.754642486572266
+  pitch: 24.999311447143555
+last-account-name: Lencher
+lastlocation:
+  world: 420ce1e5-356e-415b-995f-9ae5fa715874
+  world-name: world
+  x: 163.6998387533451
+  y: 101.84568520576924
+  z: 151.92299071407624
+  yaw: -85.65240478515625
+  pitch: 86.8501205444336

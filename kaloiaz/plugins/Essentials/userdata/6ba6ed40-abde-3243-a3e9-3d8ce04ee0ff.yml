@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 85.130.50.194
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1641077935116
+  login: 1641077720031
+money: '0'
+last-account-name: Pastarmata_2
+logoutlocation:
+  world: e4ab75a7-cf4c-44bc-9a3c-1b5e15dee86a
+  world-name: world
+  x: 81.44597258678182
+  y: 70.0
+  z: 104.28534513121879
+  yaw: 95.88555908203125
+  pitch: 41.164772033691406
+lastlocation:
+  world: e4ab75a7-cf4c-44bc-9a3c-1b5e15dee86a
+  world-name: world
+  x: 40.5
+  y: 68.0
+  z: 32.5
+  yaw: -124.79866790771484
+  pitch: -52.944889068603516

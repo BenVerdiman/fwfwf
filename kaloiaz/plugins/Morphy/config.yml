@@ -1,0 +1,82 @@
+#Do you want a sound/particle effect to be played when a player morphs
+morph-sound: true
+morph-particle: true
+
+#Do you want a sound/particle effect to be played when a player unmorphs
+unmorph-sound: true
+unmorph-particle: true
+
+#Allow morphing into players? (Possibly buggy)
+enable-players: false
+
+#Should players be able to see their own disguise?
+viewSelfDisguise: true
+
+#Should players be able to change if they view their disguises?
+canChangeView: true
+
+#When morphed as a mob do any other mobs ignore you
+ignoreMobsWhenMorphed: true
+
+#What worlds do you want this plugin enabled in?
+#use <all> to enable in all worlds
+enabled-worlds:
+- "<all>"
+- "world"
+- "world_nether"
+- "world_the_end"
+
+#Reset all of the players morphs when they die
+death-reset-all: false
+#Reset only the morph they died as
+death-reset-current: true
+#Change morph as soon as you gain access to a new morph
+morphOnKill: false
+
+#Keep morphs through login sessions
+persistMorphs: true
+#When a player kills a morphed player, should they get the morph?
+steal-morphs: true
+
+#Enable morph power for flying
+morph-power: true
+#How fast morph power is used per second of flying
+morphPower-use: 1
+#How fast morph power is regained per second of not flying
+morphPower-regain: 1
+
+#The radius /morph near looks at
+near-radius: 10
+
+#Use Crouch+F to open the morph menu?
+swapMenu: true
+#Only open the menu when there is nothing in the players main hand?
+onlyIfEmptyHand: false
+
+#Disable the /morph GUI? Not usually needed
+disableGUI: false
+
+#Changing death messages if the killer is morphed
+#Available placeholders are:
+#{victim} {killer} {killerMob} {world}
+overrideDeathMessage: true
+randomMessage: false
+creeperDeathMessage: false
+deathMessages:
+- "{killer} killed {victim} while morphed as a {killerMob}"
+- "{victim} was killed by a {killerMob}"
+
+morphItem:
+  type: BLAZE_ROD
+  data: 0
+  name: "&aMorph Menu"
+  lore:
+  - "&5Click to open the morph menu"
+  dropItem: false
+  giveOnJoin: false
+  slot: 0
+
+disableHealthSystem: false
+checkForUpdates: true
+debug: false
+stats: true

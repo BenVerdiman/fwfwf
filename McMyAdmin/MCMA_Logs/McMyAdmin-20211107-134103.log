@@ -1,0 +1,6 @@
+Notice	: Detecting System...
+Notice	: No virtualized environment detected.
+Notice	: Linux Distribution: Ubuntu
+Notice	: Detection complete.
+Warning : No Minecraft configuration file found (Normal on a first start)
+Warning : Unable to detect java version! Java may not be installed or may be outdated.

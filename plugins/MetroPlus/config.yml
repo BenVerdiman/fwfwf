@@ -1,0 +1,173 @@
+GUI:
+  welcomepage:
+    main: true
+    slots: 9
+    displayname: '&3Metro+|Welcome'
+    items:
+      single:
+        material: name_tag
+        displayname: '&aBuy Single Journey Metro+'
+        slot: 1
+        lore:
+        - '&aClick to begin'
+        action:
+          openpage: buysinglepage
+      standard:
+        material: name_tag
+        displayname: '&9Buy Standard Metro+'
+        slot: 5
+        lore:
+        - '&aClick to begin'
+        action:
+          openpage: buystandardpage
+      insert:
+        material: name_tag
+        displayname: '&6Insert Existing Metro+'
+        slot: 8
+        lore:
+        - Check Balance / Top Up / Refund
+        action:
+          openpage: insertpage
+  buysinglepage:
+    slots: 9
+    displayname: '&aBuy Single Journey Metro+'
+    items:
+      pacoMetro:
+        material: name_tag
+        displayname: '&9Paco Metro'
+        slot: 3
+        lore:
+        - '&7WH$1.5'
+        - + WH$0.1 Issuing Fee
+        action:
+          command: metroplus exchange <player> pacoMetro 1
+          openpage: purchaseSucessful
+      pacoBERT:
+        material: name_tag
+        displayname: '&2BERTransit'
+        slot: 7
+        lore:
+        - '&7WH$2.5'
+        - WH$0.1 Issuing Fee
+        action:
+          command: metroplus exchange <player> BERT 1
+          openpage: purchaseSucessful
+  insertpage:
+    slots: 9
+    displayname: '&6Right click a standard ticket'
+    items: []
+    listen:
+      listento: standard
+      openpage: standardfunctionpage
+  buystandardpage:
+    slots: 9
+    displayname: '&9Buy Standard Metro+'
+    items:
+      ticketstandardone:
+        material: name_tag
+        displayname: '&9WH$25'
+        slot: 1
+        lore:
+        - WH$0.1 Issuing Fee
+        action:
+          command: metroplus exchange <player> standard 1
+          openpage: purchaseSucessful
+  purchaseSucessful:
+    slots: 27
+    displayname: '&aPurchaseSucessful!'
+    items:
+      sucess:
+        material: emerald_block
+        displayname: '&aSucessfuly purchased!'
+        slot: 1
+        lore:
+        - '&9Click to exit'
+  standardfunctionpage:
+    slots: 9
+    displayname: '&6Existing Metro+ | <ticketid>'
+    lastlisteningtogui: insertpage
+    items:
+      balance:
+        material: name_tag
+        displayname: '&aBalance'
+        slot: 2
+        lore:
+        - WH$<balance>
+        action:
+          command: metroplus balance <ticketid>
+      topupfunction:
+        material: name_tag
+        displayname: '&6Top Up'
+        slot: 5
+        lore:
+        - '&6Click to topup.'
+        action:
+          openpage: topupstandardpage
+          command: ''
+      Refund:
+        material: name_tag
+        displayname: '&cRefund'
+        slot: 8
+        lore:
+        - WH$<balance>
+        action:
+          command: metroplus refund <ticketid>
+  topupstandardpage:
+    slots: 9
+    displayname: '&6Top Up Standard Metro+'
+    items:
+      topup25:
+        material: wool
+        displayname: '&9WH$25'
+        slot: 1
+        lore:
+        - '&6Click to Top Up WH$25'
+        action:
+          command: metroplus topup <ticketid> 25
+tickettype:
+  standard:
+    material: name_tag
+    topup: true
+    startupcost: 25
+    displayname: '&3Standard Ticket'
+  pacoMetro:
+    material: name_tag
+    startupcost: 1.5
+    displayname: '&6Paco Metro'
+  BERT:
+    material: name_tag
+    startupcost: 2.5
+    displayname: '&5BERT'
+setting:
+  faregate:
+    line0: '&9[Faregate]'
+    line1: '&aTap'
+    line2: '&3Metro+'
+    line3: ''
+  ticket:
+    line0: '&9[Ticket]'
+messages:
+  pluginname: '&aAldgateHavenMetroPlus'
+  permissiondenied: '&aAldgateHavenMetroPlus>>&4Permission denied.'
+  createdsign: '&aAldgateHavenMetroPlus>>&aYou have created a sign!'
+  ticketnotfound: '&aAldgateHavenMetroPlus>>&4Ticket type not found!'
+  argumentserror: '&aAldgateHavenMetroPlus>>&4Arguments error!'
+  invalidnumber: '&aAldgateHavenMetroPlus>>&4Invalid number!'
+  invalidplayer: '&aAldgateHavenMetroPlus>>&4Invalid player!'
+  transactionsucess: '&aAldgateHavenMetroPlus>>&aTransaction sucess!'
+  transactionfail: '&aAldgateHavenMetroPlus>>&4Transaction failed!'
+  confignotfound: '&aAldgateHavenMetroPlus>>&4Config not found!'
+  ticketnotfoundininventory: '&aAldgateHavenMetroPlus>>&4There isnt a ticket in his
+    inventory!'
+  inouterror: '&aAldgateHavenMetroPlus>>&4The sign you created can only be in or out!'
+  gatenotfound: '&aAldgateHavenMetroPlus>>&4Thers no gate near the faregate sign!'
+  notholdingticket: '&aAldgateHavenMetroPlus>>&4You are not holding a right ticket!'
+  ticketbalance: '&aAldgateHavenMetroPlus>>&aYour ticket balance is $<balance>'
+  entergate: '&aAldgateHavenMetroPlus>>&aYou have entered a gate!'
+  exitgate: '&aAldgateHavenMetroPlus>>&aYou have exited the gate!'
+  protectedgate: '&aAldgateHavenMetroPlus>>&4This gate is protected!'
+  protectedsign: '&aAldgateHavenMetroPlus>>&4This sign is protected!'
+  doubletapped: '&AldgateHavenMetroPlus>>&4You double tapped.'
+  cannotafford: '&aAldgateHavenMetroPlus>>&4You cannot afford the price.'
+  refunded: '&aAldgateHavenMetroPlus>>&aRefunded your ticket!'
+  reloaded: '&aAldgateHavenMetroPlus>>&aReloaded Config Files!'

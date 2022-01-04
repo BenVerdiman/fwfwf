@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 94.26.43.130
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1640430301217
+  login: 1640427342499
+money: '0'
+last-account-name: SupremeDan
+logoutlocation:
+  world: e4ab75a7-cf4c-44bc-9a3c-1b5e15dee86a
+  world-name: world
+  x: 346.30000001192093
+  y: 35.0
+  z: 192.69361633863207
+  yaw: -83.8709716796875
+  pitch: 31.199462890625
+lastlocation:
+  world: e4ab75a7-cf4c-44bc-9a3c-1b5e15dee86a
+  world-name: world
+  x: 337.587334586583
+  y: 95.0
+  z: 199.33450199235298
+  yaw: 127.35467529296875
+  pitch: 40.49979782104492

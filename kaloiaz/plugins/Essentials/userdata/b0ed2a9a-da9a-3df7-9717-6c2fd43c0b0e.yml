@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 84.238.150.143
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1641317307766
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1641317484616
+  login: 1641315001462
+money: '0'
+last-account-name: Lencher
+logoutlocation:
+  world: e4ab75a7-cf4c-44bc-9a3c-1b5e15dee86a
+  world-name: world
+  x: 116.37662318461867
+  y: 76.0
+  z: 92.26412007770007
+  yaw: 93.22271728515625
+  pitch: 33.14990234375
+lastlocation:
+  world: e4ab75a7-cf4c-44bc-9a3c-1b5e15dee86a
+  world-name: world
+  x: 122.87430335236259
+  y: 71.12160004615784
+  z: 106.07709865463745
+  yaw: 63.049346923828125
+  pitch: -45.69356155395508
+mail:
+- legacy: false
+  read: true
+  message: ee naj setne
+  sender-name: Pastarmata
+  sender-uuid: 3119a453-b77e-3ead-be80-2b0efe04f19f
+  timestamp: 1639940759651
+  expire: 0
+nickname: jangis

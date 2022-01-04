@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 78.83.72.164
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1636627580668
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636637391279
+  login: 1636637127444
+money: '1107.700000000000272'
+lastlocation:
+  world: 420ce1e5-356e-415b-995f-9ae5fa715874
+  world-name: world
+  x: 425.7018677000714
+  y: 4.0
+  z: -624.4590284151964
+  yaw: 9.450023651123047
+  pitch: 11.400010108947754
+logoutlocation:
+  world: 420ce1e5-356e-415b-995f-9ae5fa715874
+  world-name: world
+  x: 334.7489591186573
+  y: 4.0
+  z: 45.069788121954154
+  yaw: 165.0064697265625
+  pitch: 79.94986724853516
+last-account-name: Zarannn

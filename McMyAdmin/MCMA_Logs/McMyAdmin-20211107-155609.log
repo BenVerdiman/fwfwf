@@ -1,0 +1,101 @@
+Notice	: Detecting System...
+Notice	: No virtualized environment detected.
+Notice	: Linux Distribution: Ubuntu
+Notice	: Detection complete.
+Warning : Unable to detect java version! Java may not be installed or may be outdated.
+Notice	: Starting McMyAdmin Personal v2.7.1.4
+Notice	: Checking for updates...
+Notice	: Checking for Minecraft Server updates...
+Notice	: Starting webserver...
+Notice	: McMyAdmin has started and is ready for use.
+Notice	: Server jar hash is 5d2e596d-0111-c5aa-b203-0478d4ee0d9f
+Notice	: Starting Minecraft Server...
+Console	: Loading libraries, please wait...
+Console	: [15:56:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+Console	: [15:56:16] [main/FATAL]: Failed to start the minecraft server
+Console	: java.nio.file.AccessDeniedException: ./world/session.lock
+Console	: 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+Console	: 	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+Console	: 	at net.minecraft.util.SessionLock.a(SourceFile:37) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+Console	: 	at net.minecraft.world.level.storage.Convertable$ConversionSession.<init>(Convertable.java:341) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+Notice	: Minecraft server has stopped running.
+Warning : Server was not yet ready, automatically restarting (Attempt: 1 of 5)
+Notice	: Server jar hash is 5d2e596d-0111-c5aa-b203-0478d4ee0d9f
+Notice	: Starting Minecraft Server...
+Console	: Loading libraries, please wait...
+Console	: [15:56:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+Console	: [15:56:24] [main/FATAL]: Failed to start the minecraft server
+Console	: java.nio.file.AccessDeniedException: ./world/session.lock
+Console	: 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+Console	: 	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+Notice	: Minecraft server has stopped running.
+Warning : Server was not yet ready, automatically restarting (Attempt: 2 of 5)
+Notice	: Server jar hash is 5d2e596d-0111-c5aa-b203-0478d4ee0d9f
+Notice	: Starting Minecraft Server...
+Console	: Loading libraries, please wait...
+Console	: [15:56:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+Console	: [15:56:31] [main/FATAL]: Failed to start the minecraft server
+Console	: java.nio.file.AccessDeniedException: ./world/session.lock
+Console	: 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+Console	: 	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+Notice	: Minecraft server has stopped running.
+Warning : Server was not yet ready, automatically restarting (Attempt: 3 of 5)
+Console	: 	at net.minecraft.util.SessionLock.a(SourceFile:37) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+Notice	: Server jar hash is 5d2e596d-0111-c5aa-b203-0478d4ee0d9f
+Notice	: Starting Minecraft Server...
+Console	: Loading libraries, please wait...
+Console	: [15:56:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+Console	: [15:56:39] [main/FATAL]: Failed to start the minecraft server
+Console	: java.nio.file.AccessDeniedException: ./world/session.lock
+Console	: 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+Console	: 	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+Notice	: Minecraft server has stopped running.
+Warning : Server was not yet ready, automatically restarting (Attempt: 4 of 5)
+Notice	: Server jar hash is 5d2e596d-0111-c5aa-b203-0478d4ee0d9f
+Notice	: Starting Minecraft Server...
+Console	: Loading libraries, please wait...
+Console	: [15:56:46] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+Console	: [15:56:46] [main/FATAL]: Failed to start the minecraft server
+Console	: java.nio.file.AccessDeniedException: ./world/session.lock
+Console	: 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+Console	: 	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+Console	: 	at net.minecraft.util.SessionLock.a(SourceFile:37) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+Console	: 	at net.minecraft.world.level.storage.Convertable$ConversionSession.<init>(Convertable.java:341) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+Notice	: Minecraft server has stopped running.
+Warning : Server was not yet ready, automatically restarting (Attempt: 5 of 5)
+Console	: 	at net.minecraft.world.level.storage.Convertable.c(Convertable.java:311) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+Notice	: Server jar hash is 5d2e596d-0111-c5aa-b203-0478d4ee0d9f
+Notice	: Starting Minecraft Server...
+Console	: Loading libraries, please wait...
+Console	: [15:56:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+Console	: [15:56:53] [main/FATAL]: Failed to start the minecraft server
+Console	: java.nio.file.AccessDeniedException: ./world/session.lock
+Console	: 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+Console	: 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+Console	: 	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+Console	: 	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+Console	: 	at net.minecraft.util.SessionLock.a(SourceFile:37) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+Notice	: Minecraft server has stopped running.
+Error	: Server failed to start 5 times. Not automatically restarting.

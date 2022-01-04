@@ -1,0 +1,8 @@
+11/07/2021 16:08:22
+An exception was thrown by the type initializer for System.Drawing.GDIPlus
+  at System.Drawing.Bitmap..ctor (System.String filename, Boolean useIcm) [0x00000] in <filename unknown>:0 
+  at System.Drawing.Bitmap..ctor (System.String filename) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Drawing.Bitmap:.ctor (string)
+  at McMyAdmin.ImageGen.GenerateImage () [0x00000] in <filename unknown>:0 
+System.Drawing
+gdiplus.dll

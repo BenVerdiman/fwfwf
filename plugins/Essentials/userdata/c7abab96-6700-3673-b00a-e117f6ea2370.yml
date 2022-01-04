@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 154.21.20.148
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636714769398
+  login: 1636714765466
+money: '0'
+last-account-name: Storius728
+logoutlocation:
+  world: 420ce1e5-356e-415b-995f-9ae5fa715874
+  world-name: world
+  x: 176.5
+  y: 5.0
+  z: 16.5
+  yaw: 5.080077648162842
+  pitch: 0.0

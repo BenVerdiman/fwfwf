@@ -1,0 +1,89 @@
+keycardList:
+  '0':
+    Location:
+    - '170'
+    - '86'
+    - '151'
+    - world
+    WallLocation:
+    - '170'
+    - '86'
+    - '150'
+    - world
+    Public: 'false'
+    Owner: Lencher
+    Level: HeliPad1
+  '1':
+    Location:
+    - '170'
+    - '86'
+    - '146'
+    - world
+    WallLocation:
+    - '170'
+    - '86'
+    - '147'
+    - world
+    Public: 'false'
+    Owner: Lencher
+    Level: HeliPad1
+  '12':
+    Location:
+    - '930'
+    - '83'
+    - '-932'
+    - world
+    WallLocation:
+    - '930'
+    - '83'
+    - '-931'
+    - world
+    Greater: false
+    Public: 'false'
+    Owner: Lencher
+    Level: 1
+  '13':
+    Location:
+    - '932'
+    - '83'
+    - '-843'
+    - world
+    WallLocation:
+    - '932'
+    - '83'
+    - '-844'
+    - world
+    Greater: 'true'
+    Public: 'false'
+    Owner: Lencher
+    Level: 1
+  '14':
+    Location:
+    - '927'
+    - '83'
+    - '-840'
+    - world
+    WallLocation:
+    - '926'
+    - '83'
+    - '-840'
+    - world
+    Greater: true
+    Public: 'false'
+    Owner: Zarannn
+    Level: 1
+  '15':
+    Location:
+    - '889'
+    - '83'
+    - '-839'
+    - world
+    WallLocation:
+    - '890'
+    - '83'
+    - '-839'
+    - world
+    Greater: 'true'
+    Public: 'false'
+    Owner: Zarannn
+    Level: 1

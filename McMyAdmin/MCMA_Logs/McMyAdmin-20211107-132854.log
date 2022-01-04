@@ -1,0 +1,13 @@
+Notice	: Detecting System...
+Notice	: No virtualized environment detected.
+Notice	: Linux Distribution: Ubuntu
+Notice	: Detection complete.
+Warning : No Minecraft configuration file found (Normal on a first start)
+Warning : Unable to detect java version! Java may not be installed or may be outdated.
+Caution	: You are using the default login password! Remote users will not be able to log in.
+Notice	: Checking for Minecraft Server updates...
+Notice	: Updating Minecraft server...
+Notice	: Downloading latest Minecraft server...
+Notice	: Download complete.
+Notice	: Download successful!
+Notice	: -configonly was specified, terminating.

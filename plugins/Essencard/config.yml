@@ -1,0 +1,11 @@
+Prefix: '&9[&bEssencard&9] &r'
+StandardFare: 3.0
+ClaimCD: 900
+ClaimMin: 1.0
+ClaimMax: 100.0
+Delay: 60
+StatsDelay: 60
+Players:
+  1fdb0c0c-65f4-485e-8cfc-c96caefba3b1:
+    ID: 10001
+NextID: 10002

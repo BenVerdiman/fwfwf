@@ -1,0 +1,36 @@
+# Bot Token
+#   -Required
+# Main Voice Channel ID
+#   -Required
+# category ID
+#   -Required
+# distance
+#   -type : Required
+# checkVersion
+#   -Optional
+#   -atStartup # runs checkVersion at the start of Skoice
+#   -periodically # if enabled, runs every X ticks
+token: ODExNjc2MjY2NDQwMTYzMzc4.YC1qbg.kjSBqqZxyBMoRt8kEZ8TodxLZ84
+mainVoiceChannelID: '811678326724624415'
+categoryID: '811676709383307277'
+distance:
+  type: custom
+  custom:
+    verticalStrength: 3
+    horizontalStrength: 3
+    falloff: 3
+  radius: 15
+checkVersion:
+  atStartup: true
+  periodically:
+    enabled: true
+    delay: 144000
+Data:
+  1fdb0c0c-65f4-485e-8cfc-c96caefba3b1: '595259603579699258'
+  '595259603579699258': 1fdb0c0c-65f4-485e-8cfc-c96caefba3b1
+  b0ed2a9a-da9a-3df7-9717-6c2fd43c0b0e: '706575043433594900'
+  '706575043433594900': b0ed2a9a-da9a-3df7-9717-6c2fd43c0b0e
+  31906439-595b-3f7f-bf84-734d85dbc0f4: '710893331596443658'
+  '710893331596443658': 31906439-595b-3f7f-bf84-734d85dbc0f4
+  3119a453-b77e-3ead-be80-2b0efe04f19f: '897899744087638056'
+  '897899744087638056': 3119a453-b77e-3ead-be80-2b0efe04f19f

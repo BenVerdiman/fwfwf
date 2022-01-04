@@ -1,0 +1,206 @@
+youHaveMorphed: '&eYou have morphed into a {mob}!'
+noBabyType: '&eThat mob does not have a baby type!'
+notMorphedAsAnything: '&eYou are not morphed as anything!'
+prefix: '&a[Morph]&e'
+unableToMorphAsPlayer: '&eYou are unable to morph into {target}. Have you spelt it
+  right? (Caps matter!)'
+vexTooManyLayers: '&eToo many layers to phase through!'
+unableToChangeView: '&cPlayers are not allow to change their disguise view!'
+unmorphedAllPlayers: '&eAll players have been unmorphed'
+playerUnmorphed: '&ePlayer {target} has been unmorphed!'
+commands:
+  morph info <mob>: '&eShow the abilities that a morph gets'
+  morph near: '&eTells you if there is a player near you morphed'
+  delmorph <player> <mob>: '&eRemove a morph from a player'
+  morph reload: '&eReloads the plugin'
+  forcemorph <player> <mob> [ignoreChecks] [silent]: '&eForce a player to morph as
+    a mob'
+  morph: '&eMorph into a mob'
+  morph status: '&eDisplays what you are morphed as'
+  unmorph <all:player>: '&eUnmorph all players or a certain player'
+  unmorph: '&eMorph back into yourself'
+  addmorph <player> <mob>: '&eAdd a morph to a player'
+morphProgress: '&eYou now have {kills}/{requiredKills} kills for a {mob} morph.'
+couldNotFindPlayer: '&eCould not find player {target}'
+disableInThisWorld: '&eThis plugin is disabled in this world'
+invalidArguments: '&eInvalid arguments! Type /morph help for help'
+cooldown: '&ePlease wait {time} seconds!'
+diedLostCurrent: '&eYou were killed by {player} &eso lost your current morph: A {mob}'
+nobodyNearby: '&eThere is nobody disguised near you!'
+invalidPlayer: '&eCould not find player called {target}!'
+targetCanAlreadyMorph: '&e{target} can already morph into a {mob}'
+outOfMorphPower: '&eOut of morph power! You must land to regain.'
+abilityToggledOff: '&eYour abilties have been disabled!'
+endermenDisabled: '&eEndermen have been disabled due to them crashing other players'
+unmorphedByTime: '&eYour morph has ran out of time and you have been unmorphed!'
+morphedNearby: '&e{target} is near you and is disguised as a {mob}'
+cannotMorphAsAnything: '&eYou cannot morph into anything yet! Go kill some mobs!'
+unmorphedByStaff: '&eYou have been unmorphed by a staff member!'
+canMorphInto: '&eYou can morph into: {canMorphAs}'
+noPlayersMorphed: '&eThere is not players currently morphed!'
+invalidMorph: '&eInvalid disguise type.'
+unableToMorph: '&eYou are unable to morph into a {mob}'
+morphedTitle: Currently morphed as a {mob}
+morphReversed: '&eYou morphed back into {player}!'
+getMorphByKill: '&eYou killed {target} who was morphed as a {mob}, you now get his
+  morph!'
+helpFormat: '&e{command}: {description}'
+reloadedConfig: '&eSuccessfully reloaded config!'
+noPermissions: '&cYou do not have the required permissions'
+unmorphedByWorld: '&cYou have been unmorphed because morphing is disabled in this
+  world'
+abilityToggledOn: '&eYour abilties have been enabled!'
+morphPower: '&eMorph Power: &a'
+openingInventory: '&eOpening inventory..'
+diedLostAll: '&eYou were killed by {player} so you lost all your morphs!'
+alreadyMorphed: '&eYou are already morphed as a {mob}'
+changeSoundVolSuccess: '&eYour mob sounds have been %statusColor%!'
+currentlyMorphedAs: '&eYou are morphed as a {mob}'
+morphedAs: '&eYou are morphed as a {mob}'
+addedMorphToTarget: '&eAdded mob {mob} to user {target}'
+unmorphedTitle: You are not morphed as anything
+clickToMorph: '&bClick to morph into a {mob}'
+GUIdisabled: '&cMorph GUI is disabled. For more help do /morph help'
+timeLeftAsMorph: '&eTime left as {mob}: {min}:{second}'
+abilityInfo:
+  title: '&eAbility information for {mob}'
+  husk:
+  - '&cNo abilities found'
+  zombie_villager:
+  - '&cNo abilities found'
+  bee:
+  - '&5Passive: &eAllows you to fly'
+  cod:
+  - '&5Passive: &eDolphins grace 2'
+  enderman:
+  - '&5Ability: &eAllows you to teleport'
+  - '&5Weakness: Doesn''t like standing in the rain'
+  pig_zombie:
+  - '&5Passive: &eSpeed 2 and can safely eat rotten flesh'
+  wither_skeleton:
+  - '&cNo abilities found'
+  mule:
+  - '&cNo abilities found'
+  donkey:
+  - '&cNo abilities found'
+  horse:
+  - '&5Passive: &eSpeed 4'
+  cave_spider:
+  - '&5Passive: &eAllows you to climb walls'
+  phantom:
+  - '&5Passive: &eNight vision 3'
+  pig:
+  - '&5Ability: &eEating grass restores hunger'
+  bat:
+  - '&5Passive: &eFlying and night vision 3'
+  giant:
+  - '&5Passive: &eSlowness 3 and throws blocks wherever you walk'
+  - '&5Ability: &eThrows players away from you'
+  illusioner:
+  - '&cNo abilities found'
+  pufferfish:
+  - '&5Passive: &eDolphins grace 2'
+  cow:
+  - '&5Ability: &eEating grass restores hunger'
+  llama:
+  - '&5Ability: &eDamages people by spitting at them'
+  guardian:
+  - '&5Passive: &eWater breathing 8 and night vision 3'
+  polar_bear:
+  - '&cNo abilities found'
+  wither:
+  - '&cNo abilities found'
+  panda:
+  - '&cNo abilities found'
+  dolphin:
+  - '&5Passive: &eDolphins grace 2'
+  zoglin:
+  - '&cNo abilities found'
+  magma_cube:
+  - '&cNo abilities found'
+  stray:
+  - '&5Ability: &eShoots a slowness arrow'
+  - '&5Weakness: Burns during the day'
+  vex:
+  - '&cNo abilities found'
+  iron_golem:
+  - '&5Passive: &eStrength 6'
+  - '&5Weakness: Slowness 1'
+  squid:
+  - '&5Weakness: Squids are very slow and can''t see very far out of water'
+  mushroom_cow:
+  - '&cNo abilities found'
+  spider:
+  - '&5Ability: &eAllows you to shoot webs'
+  - '&5Passive: &eAllows you to climb walls'
+  ocelot:
+  - '&5Passive: &eSpeed 7'
+  villager:
+  - '&cNo abilities found'
+  drowned:
+  - '&5Passive: &eDolphins grace 2 and water breathing 8'
+  rabbit:
+  - '&5Passive: &eJump boost 6'
+  hoglin:
+  - '&cNo abilities found'
+  snowman:
+  - '&5Passive: &ePlaces snow down wherever you go'
+  - '&5Weakness: Starts to melt when it is raining'
+  slime:
+  - '&5Passive: &eJump boost 4 and splits into multiple slimes when taking damage'
+  turtle:
+  - '&5Passive: &eWater breathing 8, slowness 1 and damage resistance 3'
+  fox:
+  - '&cNo abilities found'
+  creeper:
+  - '&5Passive: &eBlows up when you die'
+  - '&5Ability: &eMakes you explode, dying in the process'
+  ghast:
+  - '&5Ability: &eShoots a fireball'
+  zombie:
+  - '&5Passive: &eCan safely eat rotten flesh'
+  - '&5Weakness: Burns in daylight'
+  shulker:
+  - '&cNo abilities found'
+  vindicator:
+  - '&cNo abilities found'
+  tropicalfish:
+  - '&5Passive: &eDolphins grace 2'
+  endermite:
+  - '&cNo abilities found'
+  blaze:
+  - '&5Passive: &eFlying and Fire resistance 8'
+  - '&5Ability: &eShoots a fireball'
+  enderdragon:
+  - '&5Passive: &eAllows you to fly'
+  sheep:
+  - '&5Ability: &eEating grass restores hunger'
+  evoker:
+  - '&5Ability:&e'
+  wolf:
+  - '&cNo abilities found'
+  witch:
+  - '&cNo abilities found'
+  cat:
+  - '&5Passive: &eStops phantoms from targeting you'
+  chicken:
+  - '&5Ability: &eAllows your wildest dreams to come true.. and lay an egg!'
+  silverfish:
+  - '&cNo abilities found'
+  skeleton:
+  - '&5Ability: &eAllows you to shoot arrows'
+  - '&5Weakness: Burns in daylight'
+  strider:
+  - '&5Passive: &eSpeed and fire resistance when in lava'
+  - '&5Weakness: Slowness 4 when not in lava'
+  salmon:
+  - '&5Passive: &eDolphins grace 2'
+  parrot:
+  - '&5Passive: &eAllows you to fly'
+changeViewSuccess: '&eYou can %status% see your own morph!'
+removedMorph: '&eRemoved mob {mob} from user {target}'
+mobDisabled: '&eThis mob is not enabled!'
+morphedAsPlayer: '&eYou have morphed into {target}'
+creeperExploded: '&eYou exploded!'
+morphOnCooldown: '&ePlease wait {time} seconds before morphing into this mob!'
+youCanNowMorph: '&eYou can now morph into a {mob}!'

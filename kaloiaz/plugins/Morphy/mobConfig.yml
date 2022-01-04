@@ -1,0 +1,492 @@
+#Abilities Configuration
+#
+#enabled can be used to enable or disable a mob
+#health is how much health the mob will have while morphed - This ONLY works if disableHealthSystem is false in config.yml
+#requiredKills is how many times players need to kill a mob to get the morph
+#morph-time is how long you can stay morphed as a certain mob - set to 0 to disable
+#morph-cooldown is how often you can morph back into the mob after unmorphing from that particular mob - set to 0 to disable
+#ability-cooldown is the cooldown on the given ability of the mob - set to 0 to disable
+
+#Enable flying?
+flying: true
+
+horse:
+  enabled: true
+  health: 15
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  speed: true
+wolf:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+ocelot:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  speed: true
+cow:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+pig:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+wither_skeleton:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  ability-cooldown: 0
+bat:
+  enabled: true
+  health: 6
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+blaze:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  fire: true
+  ability-cooldown: 5
+cave_spider:
+  enabled: true
+  health: 12
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  spider-climb: true
+  ability-cooldown: 0
+chicken:
+  enabled: true
+  health: 4
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  egg: true
+  ability-cooldown: 120
+creeper:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  explosion: true
+  explosion-damage: false
+enderman:
+  enabled: true
+  health: 40
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  teleport: true
+  ability-cooldown: 5
+endermite:
+  enabled: true
+  health: 8
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+ghast:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  fireball: true
+  ability-cooldown: 5
+guardian:
+  enabled: true
+  health: 30
+  requiredKills: 1
+  morph-time: 0
+  waterbreathing: true
+  morph-cooldown: 0
+iron_golem:
+  enabled: true
+  health: 100
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  strength: true
+magma_cube:
+  enabled: true
+  health: 16
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+mushroom_cow:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+zombified_piglin:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  eat: true
+  speed: true
+sheep:
+  enabled: true
+  health: 8
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+silverfish:
+  enabled: true
+  health: 8
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+skeleton:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  shoot: true
+slime:
+  enabled: true
+  health: 16
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  jump-boost: true
+  split: true
+snowman:
+  enabled: true
+  health: 4
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  snow: true
+  shoot: true
+  ability-cooldown: 0
+spider:
+  enabled: true
+  health: 16
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  climb: true
+  web: true
+  #Remove spider webs after they are shot?
+  removeSpiderWeb: true
+  #How long (seconds) should webs stay for before despawning
+  spiderWebRemove: 30
+  ability-cooldown: 0
+squid:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  waterbreathing: true
+villager:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+witch:
+  enabled: true
+  health: 26
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+wither:
+  enabled: true
+  health: 300
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  ability-cooldown: 0
+  shoot: true
+llama:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  spit: true
+  ability-cooldown: 0
+vex:
+  enabled: true
+  health: 14
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  phase: true
+  #The amount of blocks vex can phase through
+  max-layers: 2
+  ability-cooldown: 30
+vindicator:
+  enabled: true
+  health: 24
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+evoker:
+  enabled: true
+  health: 24
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  attack: true
+  spawnVex: true
+  attack-cooldown: 5
+  spawnVex-cooldown: 30
+zombie:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  eat: true
+rabbit:
+  enabled: true
+  health: 3
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  jump-boost: true
+giant:
+  enabled: true
+  health: 100
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  throw: true
+  #This increases how high giants can throw people
+  force: 2
+  #Enables the giant to 'throw' blocks as he walks
+  #NOTE: This might cause random blocks to be placed/broken if enabled
+  walk-throw: false
+  ability-cooldown: 0
+ender_dragon:
+  enabled: true
+  health: 100
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  fireball: true
+  ability-cooldown: 0
+mule:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+donkey:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+zombie_villager:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+parrot:
+  enabled: true
+  health: 6
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+illusioner:
+  enabled: true
+  health: 32
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  ability-cooldown: 0
+stray:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  slow: true
+  shoot: true
+  ability-cooldown: 0
+husk:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  hunger: true
+dolphin:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+drowned:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+cod:
+  enabled: true
+  health: 3
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+salmon:
+  enabled: true
+  health: 3
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+tropicalfish:
+  enabled: true
+  health: 3
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+pufferfish:
+  enabled: true
+  health: 3
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  poison: true
+  ability-cooldown: 15
+phantom:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+turtle:
+  enabled: true
+  health: 30
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+bee:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  ability-cooldown: 15
+  sting: true
+strider:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+hoglin:
+  enabled: true
+  health: 40
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+zoglin:
+  enabled: true
+  health: 40
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+shulker:
+  enabled: true
+  health: 30
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+polar_bear:
+  enabled: true
+  health: 30
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+cat:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+fox:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+panda:
+  enabled: true
+  health: 20
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+pillager:
+  enabled: true
+  health: 24
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  ability-cooldown: 0
+  shootArrow: true
+piglinbrute:
+  enabled: true
+  health: 50
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+piglin:
+  enabled: true
+  health: 16
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+ravager:
+  enabled: true
+  health: 100
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  ability-cooldown: 0
+  slowness: true
+  strength: true
+goat:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+  throw: true
+  force: 3
+glow_squid:
+  enabled: true
+  health: 10
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0
+axolotl:
+  enabled: true
+  health: 14
+  requiredKills: 1
+  morph-time: 0
+  morph-cooldown: 0

@@ -1,0 +1,152 @@
+# Custom emote configuration file
+# Set 'use-default-emotes' to false in the main config if you want to disable the default emotes
+# All the emotes you create will be added to 'emotes-list' and will be returned when doing /emote
+# --------------------------------------------------------------------------------------------------------
+# Sample setup:
+# --------------------------------------------------------------------------------------------------------
+# message = emote message with a target
+# sp-message = emote message without a target
+# --------------------------------------------------------------------------------------------------------
+# When doing an emote with a target, <s> is the Sender, <t> is the Target
+# When doing the emote without a target, <s> is the Sender
+# --------------------------------------------------------------------------------------------------------
+# emotes:
+#   kiss:
+#     description: Kiss!
+#     usage: /emote use kiss
+#     permission: emotes.emote.kiss
+#     message: <s> kisses <t>! N'taww!
+#     sp-message: <s> blows a kiss into the air. Who is able to catch it?
+# --------------------------------------------------------------------------------------------------------
+# According to this setup, this emote will return: <s> kisses <t>! N'taww!
+
+emotes:
+  argue:
+    description: Argue with a player!
+    usage: /emote use argue <target>
+    permission: emotes.emote.argue
+    message: <s> argues with <t>!
+    sp-message: <s> argues incoherently into the air!
+    colour: '&a'
+  facepalm:
+    description: Facepalm!
+    usage: /emote use facepalm <target>
+    permission: emotes.emote.facepalm
+    message: <s> facepalms <t>!
+    sp-message: <s> facepalms!
+    colour: '&a'
+  flail:
+    description: Flail!
+    usage: /emote use flail <target>
+    permission: emotes.emote.flail
+    message: <s> and <t> flails!
+    sp-message: <s> flails!
+    colour: '&a'
+  glomp:
+    description: Glomp your friends!
+    usage: /emote use glomp <target>
+    permission: emotes.emote.glomp
+    message: <s> glomps <t>! It's Super effective!
+    sp-message: <s> glomps a block of cobblestone! It's not very effective...
+    colour: '&a'
+  grumble:
+    description: Be the grumpy fellow!
+    usage: /emote use grumble <target>
+    permission: emotes.emote.grumble
+    message: <s> grumbles something incomprehensible to <t>! What did you say?
+    sp-message: <s> grumbles to themselves!
+    colour: '&a'
+  hate:
+    description: Hate other players!
+    usage: /emote use hate <target>
+    permission: emotes.emote.hate
+    message: <s> hates <t>! Why so angry?
+    sp-message: <s> hates everybody, just like Grumpy Cat!
+    colour: '&a'
+  hug:
+    description: Hug your friends and enemies!
+    usage: /emote use hug <target>
+    permission: emotes.emote.hug
+    message: <s> hugs <t>! How cute!
+    sp-message: <s> runs up to the closest tree and hugs it!
+    colour: '&a'
+  kick:
+    description: Kick your worst nemesis (or best friend)!
+    usage: /emote use kick <target>
+    permission: emotes.emote.kick
+    message: <s> kicks <t> in their private parts! Ouch!
+    sp-message: <s> kicks the bucket!
+    colour: '&a'
+  kiss:
+    description: Kiss your loved ones!
+    usage: /emote use kiss <target>
+    permission: emotes.emote.kiss
+    message: <s> kisses <t>! N'taww!
+    sp-message: <s> blows a kiss into the air! Who is able to catch it?
+    colour: '&a'
+  love:
+    description: Broadcast your love!
+    usage: /emote use love <target>
+    permission: emotes.emote.love
+    message: <s> loves <t>! What a sweet couple!
+    sp-message: <s> directs their love towards all neglected creepers!
+    colour: '&a'
+  poke:
+    description: Poke, poke!
+    usage: /emote use poke <target>
+    permission: emotes.emote.poke
+    message: <s> pokes <t>! Poke back?
+    sp-message: <s> pokes a chicken!
+    colour: '&a'
+  smack:
+    description: Smack someone!
+    usage: /emote use smack <target>
+    permission: emotes.emote.smack
+    message: <s> smacks <t>! You had to do that?
+    sp-message: <s> smacks their palm against their sword!
+    colour: '&a'
+  teabag:
+    description: Teabag your enemies!
+    usage: /emote use teabag <target>
+    permission: emotes.emote.teabag
+    message: <s> teabags <t>! How embarassing!
+    sp-message: <s> teabags a critter! What did that poor thing do?
+    colour: '&a'
+  wave:
+    description: Wave at other players!
+    usage: /emote use wave <target>
+    permission: emotes.emote.wave
+    message: <s> waves at <t>! Hey friend!
+    sp-message: <s> waves away a mosquito!
+    colour: '&a'
+  whistle:
+    description: Whistle sweet tunes!
+    usage: /emote use whistle <target>
+    permission: emotes.emote.whistle
+    message: <s> whistles at <t>!
+    sp-message: <s> whistles a tune!
+    colour: '&a'
+  wink:
+    description: Wink!
+    usage: /emote use wink <target>
+    permission: emotes.emote.wink
+    message: <s> winks at <t>! ;)
+    sp-message: <s> winks at a creeper! ;)
+    colour: '&a'
+emotes-list:
+- argue
+- facepalm
+- flail
+- glomp
+- grumble
+- hate
+- hug
+- kick
+- kiss
+- love
+- poke
+- smack
+- teabag
+- wave
+- whistle
+- wink

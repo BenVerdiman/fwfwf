@@ -1,0 +1,14 @@
+[15:56:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:56:53] [main/FATAL]: Failed to start the minecraft server
+java.nio.file.AccessDeniedException: ./world/session.lock
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+	at net.minecraft.util.SessionLock.a(SourceFile:37) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.<init>(Convertable.java:341) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+	at net.minecraft.world.level.storage.Convertable.c(Convertable.java:311) ~[spigot.jar:3276-Spigot-3892929-b58f429]
+	at net.minecraft.server.Main.main(Main.java:142) [spigot.jar:3276-Spigot-3892929-b58f429]
+	at org.bukkit.craftbukkit.Main.main(Main.java:206) [spigot.jar:3276-Spigot-3892929-b58f429]

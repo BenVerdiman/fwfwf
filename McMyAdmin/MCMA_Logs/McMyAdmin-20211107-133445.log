@@ -1,0 +1,13 @@
+Notice	: Detecting System...
+Notice	: No virtualized environment detected.
+Notice	: Linux Distribution: Ubuntu
+Notice	: Detection complete.
+Warning : No Minecraft configuration file found (Normal on a first start)
+Warning : Unable to detect java version! Java may not be installed or may be outdated.
+Notice	: Starting McMyAdmin Personal v2.7.1.4
+Notice	: Checking for updates...
+Notice	: Checking for Minecraft Server updates...
+Notice	: Starting webserver...
+Notice	: McMyAdmin has started and is ready for use.
+Notice	: This is the first time McMyAdmin has been started.
+Notice	: You must complete the first-start wizard via the web interface.

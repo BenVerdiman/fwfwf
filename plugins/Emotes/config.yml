@@ -1,0 +1,19 @@
+# Default config file for Emotes v1.0.4 - build 33
+cooldown:
+  duration: 10
+  default: 10
+emotes-distance: 40
+use-default-emotes: true
+use-short-list: true
+show-target-warning: true
+language-string:
+  emote: '&7[&6Emotes&7] <emote>'
+  warning:
+    sameworld: '&7[&6Emotes&7] &bYou have just been emoted by&c <sender>&b,&c <distance>
+      &bblocks away!'
+    diffworld: '&7[&6Emotes&7] &bYou have just been emoted by&c <sender>&b, from another
+      world!'
+  stillcooldown: '&7[&6Emotes&7] &bYou have &c<cooldown> &bseconds left before you
+    can use another emote.'
+no-permission-message: You do not have permission to use this emote!
+enable-metrics: true

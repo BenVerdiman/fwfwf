@@ -1,0 +1,22 @@
+Notice	: Detecting System...
+Notice	: No virtualized environment detected.
+Notice	: Linux Distribution: Ubuntu
+Notice	: Detection complete.
+Warning : No Minecraft configuration file found (Normal on a first start)
+Warning : Unable to detect java version! Java may not be installed or may be outdated.
+Error	: McMyAdmin was not shut down properly!
+Error	: To avoid potential data loss, please perform /quit on this console.
+Error	: Startup will resume in 5 seconds...
+Caution	: You are using the default login password! Remote users will not be able to log in.
+Notice	: Starting McMyAdmin Personal v2.7.1.4
+Warning : No saved group information was found. Loading Defaults.
+Notice	: Upgraded 4 legacy groups
+Notice	: No saved schedule was found. Loading Defaults.
+Notice	: Checking for updates...
+Notice	: Checking for Minecraft Server updates...
+Notice	: Starting webserver...
+Error	: Port 8080 is already in use by another application.
+Error	: Web server could not start. Type /reset to retry.
+Notice	: McMyAdmin has started and is ready for use.
+Notice	: This is the first time McMyAdmin has been started.
+Notice	: You must complete the first-start wizard via the web interface.
